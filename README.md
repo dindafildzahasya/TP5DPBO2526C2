@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/1c1121fb-9d15-4c78-add3-5ef92dbe0092
 # Data Anggota Perpustakaan
 
 
