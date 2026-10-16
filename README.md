@@ -2,6 +2,7 @@
 
 
 ## Janji 
+Saya Adinda Fildzah Hasya dengan NIM 2501218 mengerjakan Tugas Praktikum 5 pada Mata Kuliah Desain dan Pemrograman Berorientasi Objek (DPBO) untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 
 ## Fitur
@@ -28,17 +29,6 @@ Antarmuka terdiri dari formulir data anggota, pilihan kategori, spinner jumlah b
 | Email | Alamat email anggota |
 | Jumlah Buku Dipinjam | Jumlah buku yang sedang dipinjam |
 
-### Screenshot antarmuka
-
-Simpan screenshot aplikasi pada folder `Dokumentasi` dengan nama `tampilan-aplikasi.png`.
-
-![Tampilan aplikasi PeopleData](Dokumentasi/tampilan-aplikasi.png)
-
-## Database
-
-Aplikasi menggunakan database `db_people` dengan tabel `person`.
-
-Tabel memiliki kolom `id`, `nama`, `thn_lahir`, `kategori`, `email`, dan `jumlah_buku_dipinjam`. Kategori anggota adalah `Mahasiswa`, `Dosen`, dan `Umum`. File SQL yang disertakan berisi struktur tabel dan 15 data contoh.
 
 ## Alur Program
 
@@ -55,47 +45,36 @@ Tabel memiliki kolom `id`, `nama`, `thn_lahir`, `kategori`, `email`, dan `jumlah
 
 Lengkapi bagian ini dengan screenshot, GIF, atau video dari aplikasi yang benar-benar dijalankan. Dokumentasi harus menunjukkan semua operasi CRUD dan semua dialog/prompt error yang dibuat.
 
-### 1. Read — Menampilkan Data
+### 1. ID Duplikat
 
-Tunjukkan data anggota yang berhasil dimuat dari database.
 
-![Menampilkan data anggota](Dokumentasi/tampilan-aplikasi.png)
 
-### 2. Create — Menambahkan Data
 
-Tunjukkan pengisian formulir, penambahan anggota, dan data baru pada tabel.
+### 2. Data Kosong
+
+
 
 ![Menambahkan data anggota](Dokumentasi/tambah-data.gif)
 
-### 3. Validasi Input Kosong
+### 3. Tahun Lahir Bukan Angka
 
-Kosongkan salah satu input wajib, lalu tekan Add. Sertakan screenshot dialog peringatan.
+
 
 ![Validasi input kosong](Dokumentasi/validasi-input-kosong.png)
 
-### 4. Validasi ID Duplikat
+### 4. Add
 
-Masukkan ID yang sudah ada, lalu tekan Add. Sertakan screenshot dialog error.
 
 ![Validasi ID duplikat](Dokumentasi/validasi-id-duplikat.png)
 
-### 5. Update — Mengubah Data
+### 5. Update
 
-Pilih anggota, ubah datanya, simpan perubahan, lalu tunjukkan hasilnya di tabel.
 
 ![Mengubah data anggota](Dokumentasi/ubah-data.gif)
 
-### 6. Validasi Input Kosong saat Update
+### 6. Delete
 
-Pilih anggota, kosongkan salah satu input wajib, lalu tekan Update. Sertakan screenshot dialog peringatan.
+
 
 ![Validasi input kosong saat update](Dokumentasi/validasi-update-kosong.png)
-
-### 7. Delete — Menghapus Data
-
-Tunjukkan pemilihan anggota, dialog konfirmasi, dan tabel setelah data dihapus.
-
-![Konfirmasi penghapusan](Dokumentasi/konfirmasi-hapus.png)
-
-![Hasil penghapusan data](Dokumentasi/hapus-data.gif)
 
