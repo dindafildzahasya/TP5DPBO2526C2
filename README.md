@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/1c1121fb-9d15-4c78-add3-5ef92dbe0092
 # Data Anggota Perpustakaan
 
 
@@ -41,40 +43,41 @@ Antarmuka terdiri dari formulir data anggota, pilihan kategori, spinner jumlah b
 7. Operasi Delete meminta konfirmasi sebelum menghapus data.
 8. Setelah operasi berhasil, tabel dimuat ulang dan formulir dikosongkan.
 
-## Dokumentasi Operasi CRUD dan Validasi
+## Dokumentasi Operasi CRUD 
 
-Lengkapi bagian ini dengan screenshot, GIF, atau video dari aplikasi yang benar-benar dijalankan. Dokumentasi harus menunjukkan semua operasi CRUD dan semua dialog/prompt error yang dibuat.
 
 ### 1. ID Duplikat
 
 
+https://github.com/user-attachments/assets/fd62fea8-1956-4c22-8ff2-0227274868b4
 
 
 ### 2. Data Kosong
 
 
+https://github.com/user-attachments/assets/eec6b7b5-76a7-4812-9d18-e99dcf9324f7
 
-![Menambahkan data anggota](Dokumentasi/tambah-data.gif)
 
 ### 3. Tahun Lahir Bukan Angka
 
 
+https://github.com/user-attachments/assets/bc2d83f3-a586-4644-8081-1d08cbff3f9b
 
-![Validasi input kosong](Dokumentasi/validasi-input-kosong.png)
 
 ### 4. Add
 
 
-![Validasi ID duplikat](Dokumentasi/validasi-id-duplikat.png)
+https://github.com/user-attachments/assets/cc687828-e7ac-46bc-8d11-3dd7c446ff68
+
 
 ### 5. Update
 
 
-![Mengubah data anggota](Dokumentasi/ubah-data.gif)
+https://github.com/user-attachments/assets/95b7300e-4aaf-4d57-b89f-42c408c014e3
+
 
 ### 6. Delete
 
 
-
-![Validasi input kosong saat update](Dokumentasi/validasi-update-kosong.png)
+https://github.com/user-attachments/assets/c2a5634e-aa86-4957-b612-78826c6504bf
 
