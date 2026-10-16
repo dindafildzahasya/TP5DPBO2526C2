@@ -1,6 +1,8 @@
-# PeopleData — Data Anggota Perpustakaan
+# Data Anggota Perpustakaan
 
-Aplikasi desktop berbasis Java Swing untuk mengelola data anggota perpustakaan menggunakan database MySQL. Aplikasi menyediakan operasi CRUD (*Create, Read, Update, Delete*) dan validasi input.
+
+## Janji 
+
 
 ## Fitur
 
@@ -12,38 +14,6 @@ Aplikasi desktop berbasis Java Swing untuk mengelola data anggota perpustakaan m
 - Memeriksa ID duplikat saat menambahkan data.
 - Menyimpan jumlah buku yang dipinjam dengan nilai 0–20.
 
-## Teknologi
-
-- Java dan Java Swing
-- MySQL dan JDBC MySQL Connector/J
-- XAMPP dan phpMyAdmin
-- IntelliJ IDEA
-
-## Struktur Folder
-
-```text
-PersonData/
-├── PersonData/                 # Source code/project Java (sesuaikan dengan IDE)
-│   ├── PeopleMenu.java
-│   ├── PeopleMenu.form
-│   ├── Person.java
-│   ├── Database.java
-│   └── lib/
-│       └── mysql-connector-j-*.jar
-├── Dokumentasi/
-│   ├── tampilan-aplikasi.png
-│   ├── tambah-data.gif
-│   ├── validasi-input-kosong.png
-│   ├── validasi-id-duplikat.png
-│   ├── ubah-data.gif
-│   ├── validasi-update-kosong.png
-│   ├── konfirmasi-hapus.png
-│   └── hapus-data.gif
-├── db_people_anggota_perpustakaan_15_data.sql
-└── README.md
-```
-
-Sesuaikan nama file dokumentasi dengan screenshot, GIF, atau video yang benar-benar kamu simpan. Sertakan semua source code dan file project yang diperlukan.
 
 ## Desain Program
 
@@ -129,36 +99,3 @@ Tunjukkan pemilihan anggota, dialog konfirmasi, dan tabel setelah data dihapus.
 
 ![Hasil penghapusan data](Dokumentasi/hapus-data.gif)
 
-### 8. Dialog Error Lainnya
-
-Jika aplikasi memiliki dialog error lain, misalnya tahun lahir bukan angka atau kegagalan database, sertakan screenshot setiap dialog di folder `Dokumentasi`.
-
-## Cara Menjalankan Aplikasi
-
-1. Instal JDK yang sesuai dengan project.
-2. Jalankan MySQL melalui XAMPP jika menggunakan instalasi XAMPP.
-3. Buka phpMyAdmin dan impor `db_people_anggota_perpustakaan_15_data.sql`.
-4. Pastikan database `db_people` dan tabel `person` sudah tersedia.
-5. Pastikan MySQL Connector/J sudah ditambahkan sebagai dependency/library project.
-6. Periksa pengaturan koneksi di `Database.java`. Konfigurasi lokal project:
-
-   ```java
-   DriverManager.getConnection(
-       "jdbc:mysql://localhost:3306/db_people",
-       "root",
-       ""
-   );
-   ```
-
-   Sesuaikan username, password, dan alamat server jika konfigurasi MySQL kamu berbeda.
-7. Buka project di IntelliJ IDEA.
-8. Jalankan class `PeopleMenu`.
-
-> Jika database sudah berisi data, backup terlebih dahulu sebelum mengimpor SQL. Data contoh dapat gagal dimasukkan jika ID yang sama sudah ada.
-
-## Catatan
-
-- Pastikan MySQL aktif sebelum menjalankan aplikasi.
-- Pastikan Connector/J tersedia pada classpath project.
-- Jangan mengunggah password database pribadi atau kredensial sensitif ke repositori publik.
-- Ganti gambar contoh pada README dengan dokumentasi asli aplikasi kamu sebelum mengumpulkan tugas.
